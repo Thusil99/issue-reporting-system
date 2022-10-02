@@ -1,0 +1,36 @@
+@import "../variables.scss";
+
+.board {
+  height: calc(100% - 5em);
+  display: flex;
+}
+
+.columnHeader {
+  padding: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.406);
+  margin-bottom: 4px;
+}
+
+.column {
+  height: 100%;
+  border-right: 1px solid rgba(0, 0, 0, 0.406);
+  width: 25vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.noBorderColumn {
+  @extend .column;
+  border: none;
+}
+
+.issueContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+}

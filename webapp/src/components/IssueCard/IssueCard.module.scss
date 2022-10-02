@@ -1,0 +1,54 @@
+@import "../../variables.scss";
+
+.issueCard {
+  min-height: 6em;
+  border-radius: 6px;
+  padding: 12px;
+  box-sizing: border-box;
+  box-shadow: 0 0 3px $fontColor;
+  margin: 2px 8px 8px 8px;
+  min-height: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eyeIcon {
+  height: 22px;
+  cursor: pointer;
+}
+
+.bottomContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.selectContainer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.moveTo {
+  margin-right: 6px;
+}
+
+.type {
+  letter-spacing: 1px;
+  border-radius: 4px;
+  background-color: $primaryColor;
+  color: #fff;
+  padding: 2px 8px;
+  margin-right: 4px;
+}
+
+.typeWrapper {
+  display: flex;
+}
